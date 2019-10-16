@@ -1,0 +1,192 @@
+%one {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+%in-b {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+%clearfix {
+  zoom: 1;
+  &:after {
+    clear: both;
+  }
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+}
+.wrap {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+/* 头部 */
+.sx-head{
+  .head-cont{
+    @extend %clearfix;
+    .cont-logo{
+      float: left;
+      padding: 15px 0;
+      .logo-main{
+        width: 152px;
+        height: 40px;
+        padding: 10px 0;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    .cont-nav{
+      float: right;
+      height: 60px;
+      line-height: 60px;
+      padding: 15px 0;
+      a{
+        @extend %in-b;
+        font-size: 16px;
+        color: #333333;
+        margin: 0 20px;
+        &.active{
+          color: #e74a42;
+          border-bottom: 2px solid #e74a42;
+          //position: relative;
+          &:after{
+            //position: absolute;
+            //bottom: 0;
+            //left: 0;
+            //right: 0;
+            //margin: auto;
+            //@extend %in-b;
+            //content: '';
+            //width: 40px;
+            //height: 2px;
+            //background-color: #e74a42;
+          }
+        }
+        &:hover{
+          color: #e74a42;
+        }
+      }
+    }
+  }
+  .head-navbar{
+    height: 42px;
+    line-height: 42px;
+    background-color: #343442;
+    display: none;
+    .navbar-detail{
+      @extend %clearfix;
+      font-size: 16px;
+      a{
+        float: left;
+        padding: 0 42px;
+        color: #ffffff;
+        &.active{
+          background-color: #e74a42;
+        }
+        &:hover{
+          background-color: #e74a42;
+        }
+      }
+    }
+  }
+}
+
+/* 热门标题 模块 */
+.hots-title{
+  font-size: 30px;
+  line-height: 30px;
+  color: #333333;
+  .title-red{
+    color: #e74a42;
+  }
+  .title-en{
+    font-size: 16px;
+    color: #999999;
+    margin-left: 20px;
+  }
+}
+
+/* 升学网-热门模块 */
+.sx-hots{
+  padding-top: 43px;
+  .hots-title{
+    margin-bottom: 26px;
+  }
+  .host-cont{
+    @extend %clearfix;
+    margin-bottom: 65px;
+    .cont-l{
+      width: 780px;
+      height: 356px;
+      float: left;
+      //border: 1px solid #cccccc;
+      .l-more{
+        @extend %in-b;
+        width: 300px;
+        height: 356px;
+        float: left;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .l-wd{
+        float: left;
+        width: 440px;
+        height: 100%;
+        margin-left: 30px;
+        border: 1px solid #cccccc;
+        .wd-row{
+          .row-title{
+            font-size: 16px;
+            .title-tt{
+              @extend %in-b;
+              font-size: 14px;
+              font-weight: bold;
+              line-height: 24px;
+              padding: 0 9px;
+              color: #ffffff;
+              background-image: linear-gradient(270deg,
+                  #e74a42 0%,
+                  #ff6c44 100%);
+              position: relative;
+              margin-right: 16px;
+              border-radius: 2px;
+              &:after{
+                position: absolute;
+                right: -8px;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                content: '';
+                width: 0;
+                height: 0;
+                border-top: 4px solid transparent;
+                border-right: 4px solid transparent;
+                border-bottom: 4px solid transparent;
+                border-left: 4px solid #e74a42;
+              }
+            }
+          }
+          .row-detail{
+            font-size: 14px;
+            line-height: 24px;
+            color: #666666;
+          }
+        }
+      }
+    }
+    .cont-r{
+      width: 300px;
+      height: 356px;
+      float: right;
+      border: 1px solid #cccccc;
+    }
+  }
+}
