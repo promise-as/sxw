@@ -13,7 +13,7 @@ input, textarea, select { font-family: '微软雅黑'; }
 
 .sx-hots .host-cont .cont-l .l-wd .wd-row .row-title .txt, .sx-hots .host-cont .cont-l .l-wd .wd-lists a .txt, .sx-hots .host-cont .cont-r .r-hots .hots-cont .cont-lists a, .sx-hots .sx-schools li .item-txt, .sx-xw .xw-cont .cont-item .item-txt, .sx-info .cont-r .topic .item-txt, .sx-info .cont-r .hots-cont .cont-lists a, .sx-news .xx-cont .cont-l .news-row .row-title .txt, .news-ftu-details .cont-l .details-good .good-item .item-txt, .sx-index2 .school-intro .intro-detail .detail-text .text-row span, .sx-related .related-detail .wd-lists a .txt { white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
 
-.sx-hots .host-cont .cont-l .l-wd .wd-lists a:before, .sx-hots .host-cont .cont-r .r-hots .hots-head:before, .sx-info .cont-r .hots-head:before, .sx-related .related-detail .wd-lists a:before, .sx-head .head-cont .cont-nav a, .sx-hots .news-title .txt, .sx-hots .host-cont .cont-l .l-more, .sx-hots .host-cont .cont-l .l-wd .wd-row .row-title .title-tt, .sx-hots .host-cont .cont-l .l-wd .wd-row .row-title .txt, .sx-hots .host-cont .cont-l .l-wd .wd-lists a .txt, .sx-hots .host-cont .cont-r .r-hots .hots-head .txt, .sx-hots .host-cont .cont-r .r-hots .hots-cont .cont-lists a, .sx-hots .host-cont .cont-r .r-hots .hots-cont .sort li:before, .sx-hots .sx-schools li .item-txt, .sx-hots .school-title span, .sx-xw .xw-cont .cont-item .item-txt, .sx-info .cont-l .l-title .thead .thead-item, .sx-info .cont-l .l-title .news-title .txt, .sx-info .cont-l .news-lists li .row-title .tj, .sx-info .cont-r .hots-head .txt, .sx-info .cont-r .topic .item-txt, .sx-info .cont-r .tags ul li, .sx-info .cont-r .tags ul li a, .sx-info .cont-r .sx-form .sign-in .zx, .sx-info .cont-r .sx-form .form-tel .tel-icon, .sx-info .cont-r .hots-cont .cont-lists a, .sx-info .cont-r .hots-cont .sort li:before, .sx-news .xx-cont .cont-l .news-row .row-title .title-tt, .sx-news .xx-cont .cont-l .news-row .row-title .title-rd, .sx-news .xx-cont .cont-l .news-row .row-title .txt, .sx-news .xx-cont .cont-r .xx-litimg a, .news-ftu-details .cont-l .details-intro .intro-tags .tags-time .icon, .news-ftu-details .cont-l .details-good .good-item .item-txt, .schools-library .info-cont .cont-l .library-types .types-row .row-val, .schools-library .info-cont .cont-l .library-types .types-row .row-val span, .schools-library .info-cont .cont-l .library-detail li .detail-text .school-in a, .sx-index2 .school-intro .intro-detail .detail-text .text-row span, .sx-index2 .school-intro .intro-detail .detail-text .busline, .sx-index2 .school-intro .intro-detail .detail-text .busline .icon, .sx-index2 .school-intro .intro-detail .detail-text .busline span, .sx-related .related-title .txt, .sx-related .related-detail .wd-lists a .txt, .sx-links .tab-head span { display: inline-block; *zoom: 1; *display: inline; }
+.sx-hots .host-cont .cont-l .l-wd .wd-lists a:before, .sx-hots .host-cont .cont-r .r-hots .hots-head:before, .sx-info .cont-r .hots-head:before, .sx-related .related-detail .wd-lists a:before, .sx-head .head-cont .cont-nav a, .sx-hots .news-title .txt, .sx-hots .host-cont .cont-l .l-more, .sx-hots .host-cont .cont-l .l-wd .wd-row .row-title .title-tt, .sx-hots .host-cont .cont-l .l-wd .wd-row .row-title .txt, .sx-hots .host-cont .cont-l .l-wd .wd-lists a .txt, .sx-hots .host-cont .cont-r .r-hots .hots-head .txt, .sx-hots .host-cont .cont-r .r-hots .hots-cont .cont-lists a, .sx-hots .host-cont .cont-r .r-hots .hots-cont .sort li:before, .sx-hots .sx-schools li .item-txt, .sx-hots .school-title span, .sx-xw .xw-cont .cont-item .item-txt, .sx-info .cont-l .l-title .thead .thead-item, .sx-info .cont-l .l-title .news-title .txt, .sx-info .cont-l .news-lists li .row-title .tj, .sx-info .cont-r .hots-head .txt, .sx-info .cont-r .topic .topic-item a, .sx-info .cont-r .topic .item-txt, .sx-info .cont-r .tags ul li, .sx-info .cont-r .tags ul li a, .sx-info .cont-r .sx-form .sign-in .zx, .sx-info .cont-r .sx-form .form-tel .tel-icon, .sx-info .cont-r .hots-cont .cont-lists a, .sx-info .cont-r .hots-cont .sort li:before, .sx-news .xx-cont .cont-l .news-row .row-title .title-tt, .sx-news .xx-cont .cont-l .news-row .row-title .title-rd, .sx-news .xx-cont .cont-l .news-row .row-title .txt, .sx-news .xx-cont .cont-r .xx-litimg a, .news-ftu-details .cont-l .details-intro .intro-tags .tags-time .icon, .news-ftu-details .cont-l .details-good .good-item .item-txt, .schools-library .info-cont .cont-l .library-types .types-row .row-val, .schools-library .info-cont .cont-l .library-types .types-row .row-val span, .schools-library .info-cont .cont-l .library-detail li .detail-text .school-in a, .sx-index2 .school-intro .intro-detail .detail-text .text-row span, .sx-index2 .school-intro .intro-detail .detail-text .busline, .sx-index2 .school-intro .intro-detail .detail-text .busline .icon, .sx-index2 .school-intro .intro-detail .detail-text .busline span, .sx-good .good-bar .bar-time .icon, .sx-ask .ask-ftu-query .query-title .icon, .sx-ask .ask-ftu-query .query-tags .tags-time .icon, .sx-ask .ask-ftu-answer .answer-title .icon, .sx-ask .ask-ftu-answer .answer-tags .icon, .sx-related .related-title .txt, .sx-related .related-detail .wd-lists a .txt, .sx-links .tab-head span { display: inline-block; *zoom: 1; *display: inline; }
 
 .sx-head .head-cont, .sx-head .head-navbar .navbar-detail, .sx-hots .host-cont, .sx-hots .sx-schools ul, .sx-xw .xw-cont, .sx-info .info-cont, .sx-info .cont-l .l-title, .sx-news .xx-cont, .news-ftu-details .cont-l .details-good, .schools-library .info-cont .cont-l .library-detail li, .schools-library .info-cont .cont-r .wechat-code, .sx-index2 .school-intro .intro-detail, .sx-index2 .environment .environment-detail ul, .sx-index2 .teacher-team .team-detail .detail-explain, .sx-related .related-detail .wd-lists, .sx-links .tab-item { zoom: 1; }
 
@@ -40,7 +40,7 @@ input, textarea, select { font-family: '微软雅黑'; }
 
 .sx-head .head-cont .cont-nav a:hover { color: #e74a42; }
 
-.sx-head .head-navbar { height: 42px; line-height: 42px; background-color: #343442; }
+.sx-head .head-navbar { width: 100%; height: 42px; line-height: 42px; background-color: #343442; }
 
 .sx-head .head-navbar .navbar-detail { font-size: 16px; }
 
@@ -124,21 +124,21 @@ input, textarea, select { font-family: '微软雅黑'; }
 
 .sx-hots .host-cont .cont-r .r-hots .hots-cont .sort li:before { content: ''; width: 12px; height: 14px; vertical-align: middle; margin-right: 4px; }
 
-.sx-hots .host-cont .cont-r .r-hots .hots-cont .sort li:nth-of-type(1):before { background: url("../images/sx-sprites.png") -77px -110px; }
+.sx-hots .host-cont .cont-r .r-hots .hots-cont .sort li:nth-of-type(1):before { background: url("https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/sx-sprites.png") -77px -110px; }
 
-.sx-hots .host-cont .cont-r .r-hots .hots-cont .sort li:nth-of-type(2):before { background: url("../images/sx-sprites.png") -109px -110px; }
+.sx-hots .host-cont .cont-r .r-hots .hots-cont .sort li:nth-of-type(2):before { background: url("https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/sx-sprites.png") -109px -110px; }
 
-.sx-hots .host-cont .cont-r .r-hots .hots-cont .sort li:nth-of-type(3):before { background: url("../images/sx-sprites.png") -10px -145px; }
+.sx-hots .host-cont .cont-r .r-hots .hots-cont .sort li:nth-of-type(3):before { background: url("https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/sx-sprites.png") -10px -145px; }
 
-.sx-hots .host-cont .cont-r .r-hots .hots-cont .sort li:nth-of-type(4):before { background: url("../images/sx-sprites.png") -42px -145px; }
+.sx-hots .host-cont .cont-r .r-hots .hots-cont .sort li:nth-of-type(4):before { background: url("https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/sx-sprites.png") -42px -145px; }
 
-.sx-hots .host-cont .cont-r .r-hots .hots-cont .sort li:nth-of-type(5):before { background: url("../images/sx-sprites.png") -74px -145px; }
+.sx-hots .host-cont .cont-r .r-hots .hots-cont .sort li:nth-of-type(5):before { background: url("https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/sx-sprites.png") -74px -145px; }
 
-.sx-hots .host-cont .cont-r .r-hots .hots-cont .sort li:nth-of-type(6):before { background: url("../images/sx-sprites.png") -106px -145px; }
+.sx-hots .host-cont .cont-r .r-hots .hots-cont .sort li:nth-of-type(6):before { background: url("https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/sx-sprites.png") -106px -145px; }
 
-.sx-hots .host-cont .cont-r .r-hots .hots-cont .sort li:nth-of-type(7):before { background: url("../images/sx-sprites.png") -138px -145px; }
+.sx-hots .host-cont .cont-r .r-hots .hots-cont .sort li:nth-of-type(7):before { background: url("https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/sx-sprites.png") -138px -145px; }
 
-.sx-hots .host-cont .cont-r .r-hots .hots-cont .sort li:nth-of-type(8):before { background: url("../images/sx-sprites.png") -45px -110px; }
+.sx-hots .host-cont .cont-r .r-hots .hots-cont .sort li:nth-of-type(8):before { background: url("https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/sx-sprites.png") -45px -110px; }
 
 .sx-hots .sx-schools ul { margin-right: -20px; }
 
@@ -200,7 +200,7 @@ input, textarea, select { font-family: '微软雅黑'; }
 
 .sx-info .cont-l .news-lists li .row-title { font-size: 16px; line-height: 16px; font-weight: bold; color: #333333; }
 
-.sx-info .cont-l .news-lists li .row-title .tj { font-size: 12px; font-style: normal; color: #ffffff; text-align: center; line-height: 14px; width: 18px; height: 20px; background: url("../images/sx-sprites.png") -10px -70px; margin-right: 9px; vertical-align: middle; }
+.sx-info .cont-l .news-lists li .row-title .tj { font-size: 12px; font-style: normal; color: #ffffff; text-align: center; line-height: 14px; width: 18px; height: 20px; background: url("https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/sx-sprites.png") -10px -70px; margin-right: 9px; vertical-align: middle; }
 
 .sx-info .cont-l .news-lists li .row-detail { font-size: 14px; line-height: 24px; color: #666666; padding: 15px 0 10px; }
 
@@ -210,7 +210,7 @@ input, textarea, select { font-family: '微软雅黑'; }
 
 .sx-info .cont-l .news-lists li .row-bottom .bottom-name { margin-right: 20px; }
 
-.sx-info .cont-l .news-lists li .row-bottom .share { float: right; width: 18px; height: 20px; background: url("../images/sx-sprites.png") -48px -70px; }
+.sx-info .cont-l .news-lists li .row-bottom .share { float: right; width: 18px; height: 20px; background: url("https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/sx-sprites.png") -48px -70px; }
 
 .sx-info .cont-l .news-lists li:hover { background-color: #f7f7f7; }
 
@@ -238,7 +238,7 @@ input, textarea, select { font-family: '微软雅黑'; }
 
 .sx-info .cont-r .tags ul li a:hover { color: #ffffff; background-color: #e74a42; }
 
-.sx-info .cont-r .sx-form { padding: 102px 20px 12px; background: url("../images/sx-zxlb_8.png") no-repeat; margin-bottom: 20px; }
+.sx-info .cont-r .sx-form { width: 300px; padding: 102px 20px 12px; -webkit-box-sizing: border-box; box-sizing: border-box; background: url("https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/sx-zxlb_8.png") no-repeat; margin-bottom: 20px; }
 
 .sx-info .cont-r .sx-form .sign-in { background-color: #ffffff; border-radius: 10px; margin-bottom: 12px; padding: 26px 20px; }
 
@@ -250,7 +250,7 @@ input, textarea, select { font-family: '微软雅黑'; }
 
 .sx-info .cont-r .sx-form .form-tel { font-size: 24px; line-height: 40px; color: #ffee8f; text-align: center; }
 
-.sx-info .cont-r .sx-form .form-tel .tel-icon { width: 40px; height: 40px; background: url("../images/sx-sprites.png") -10px -10px; vertical-align: middle; }
+.sx-info .cont-r .sx-form .form-tel .tel-icon { width: 40px; height: 40px; background: url("https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/sx-sprites.png") -10px -10px; vertical-align: middle; }
 
 .sx-info .cont-r .sx-form .form-tel span { vertical-align: middle; }
 
@@ -264,21 +264,21 @@ input, textarea, select { font-family: '微软雅黑'; }
 
 .sx-info .cont-r .hots-cont .sort li:before { content: ''; width: 12px; height: 14px; vertical-align: middle; margin-right: 4px; }
 
-.sx-info .cont-r .hots-cont .sort li:nth-of-type(1):before { background: url("../images/sx-sprites.png") -77px -110px; }
+.sx-info .cont-r .hots-cont .sort li:nth-of-type(1):before { background: url("https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/sx-sprites.png") -77px -110px; }
 
-.sx-info .cont-r .hots-cont .sort li:nth-of-type(2):before { background: url("../images/sx-sprites.png") -109px -110px; }
+.sx-info .cont-r .hots-cont .sort li:nth-of-type(2):before { background: url("https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/sx-sprites.png") -109px -110px; }
 
-.sx-info .cont-r .hots-cont .sort li:nth-of-type(3):before { background: url("../images/sx-sprites.png") -10px -145px; }
+.sx-info .cont-r .hots-cont .sort li:nth-of-type(3):before { background: url("https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/sx-sprites.png") -10px -145px; }
 
-.sx-info .cont-r .hots-cont .sort li:nth-of-type(4):before { background: url("../images/sx-sprites.png") -42px -145px; }
+.sx-info .cont-r .hots-cont .sort li:nth-of-type(4):before { background: url("https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/sx-sprites.png") -42px -145px; }
 
-.sx-info .cont-r .hots-cont .sort li:nth-of-type(5):before { background: url("../images/sx-sprites.png") -74px -145px; }
+.sx-info .cont-r .hots-cont .sort li:nth-of-type(5):before { background: url("https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/sx-sprites.png") -74px -145px; }
 
-.sx-info .cont-r .hots-cont .sort li:nth-of-type(6):before { background: url("../images/sx-sprites.png") -106px -145px; }
+.sx-info .cont-r .hots-cont .sort li:nth-of-type(6):before { background: url("https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/sx-sprites.png") -106px -145px; }
 
-.sx-info .cont-r .hots-cont .sort li:nth-of-type(7):before { background: url("../images/sx-sprites.png") -138px -145px; }
+.sx-info .cont-r .hots-cont .sort li:nth-of-type(7):before { background: url("https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/sx-sprites.png") -138px -145px; }
 
-.sx-info .cont-r .hots-cont .sort li:nth-of-type(8):before { background: url("../images/sx-sprites.png") -45px -110px; }
+.sx-info .cont-r .hots-cont .sort li:nth-of-type(8):before { background: url("https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/sx-sprites.png") -45px -110px; }
 
 /* 小学资讯页面 */
 .sx-news { background-color: #f9f9f9; }
@@ -351,7 +351,7 @@ input, textarea, select { font-family: '微软雅黑'; }
 
 .news-ftu-details .cont-l .details-intro .intro-tags .tags-time { float: right; }
 
-.news-ftu-details .cont-l .details-intro .intro-tags .tags-time .icon { width: 15px; height: 15px; background: url("../images/sx-sprites.png") -10px -110px; vertical-align: middle; margin-right: 9px; }
+.news-ftu-details .cont-l .details-intro .intro-tags .tags-time .icon { width: 15px; height: 15px; background: url("https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/sx-sprites.png") -10px -110px; vertical-align: middle; margin-right: 9px; }
 
 .news-ftu-details .cont-l .details-intro .intro-tags .tags-time span { vertical-align: middle; }
 
@@ -424,9 +424,9 @@ input, textarea, select { font-family: '微软雅黑'; }
 
 .schools-library .info-cont .cont-r .r-hots .topic { padding-top: 0; }
 
-.schools-library .info-cont .cont-r .wechat-code { padding: 20px 10px 25px 20px; background: url(../images/sx-xxk_1.png) no-repeat; margin-bottom: 20px; }
+.schools-library .info-cont .cont-r .wechat-code { padding: 20px 10px 25px 20px; background: url(https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/sx-xxk_1.png) no-repeat; margin-bottom: 20px; }
 
-.schools-library .info-cont .cont-r .wechat-code .code-img { float: left; width: 121px; height: 121px; background: url(../images/sx-wechat-code_2.png) no-repeat #fff; margin-right: 10px; }
+.schools-library .info-cont .cont-r .wechat-code .code-img { float: left; width: 121px; height: 121px; background: url(https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/sx-wechat-code_2.png) no-repeat #fff; margin-right: 10px; }
 
 .schools-library .info-cont .cont-r .wechat-code .code-img img { width: 119px; height: 119px; margin: 1px; }
 
@@ -459,13 +459,13 @@ input, textarea, select { font-family: '微软雅黑'; }
 
 .sx-index2 .school-intro .intro-detail .detail-text .busline { height: 27px; line-height: 27px; background-color: #f8f8f8; border-radius: 2px; border: solid 1px #dadada; padding: 0 10px; margin-top: 6px; }
 
-.sx-index2 .school-intro .intro-detail .detail-text .busline .icon { width: 11px; height: 16px; background: url("../images/sx-sprites.png") -153px -10px; vertical-align: middle; margin-right: 8px; }
+.sx-index2 .school-intro .intro-detail .detail-text .busline .icon { width: 11px; height: 16px; background: url("https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/sx-sprites.png") -153px -10px; vertical-align: middle; margin-right: 8px; }
 
 .sx-index2 .school-intro .intro-detail .detail-text .busline span { vertical-align: middle; }
 
 .sx-index2 .school-intro .intro-detail .detail-text .busline:hover { color: #e74a42; }
 
-.sx-index2 .about-us { padding: 10px; }
+.sx-index2 .about-us { padding: 10px; display: none; }
 
 .sx-index2 .about-us .us-detail { padding: 5px 0 22px 10px; border-bottom: 1px dashed #c1c1c1; }
 
@@ -515,7 +515,7 @@ input, textarea, select { font-family: '微软雅黑'; }
 
 .sx-index2 .cont-r .topic { padding-top: 0; }
 
-.sx-index2 .index2-form { padding: 127px 20px 30px; background: url("../images/xxsy_1.png") no-repeat; margin-bottom: 20px; }
+.sx-index2 .index2-form { width: 300px; padding: 127px 20px 30px; -webkit-box-sizing: border-box; box-sizing: border-box; background: url("https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/xxsy_1.png") no-repeat; margin-bottom: 20px; }
 
 .sx-index2 .index2-form .sign-in { background-color: #ffffff; border-radius: 10px; padding: 20px; text-align: center; }
 
@@ -526,6 +526,70 @@ input, textarea, select { font-family: '微软雅黑'; }
 .sx-index2 .index2-form .sign-in textarea { width: 86%; height: 60px; padding: 7px 1em; }
 
 .sx-index2 .index2-form .sign-in input[type="submit"] { font-size: 16px; width: 47%; height: 38px; line-height: 38px; background-image: linear-gradient(-17deg, #ff773a 0%, #ff905f 100%); -webkit-box-shadow: 0px 0px 8px 0px rgba(255, 134, 81, 0.92); box-shadow: 0px 0px 8px 0px rgba(255, 134, 81, 0.92); border-radius: 4px; vertical-align: middle; margin-bottom: 0; margin-top: 10px; text-indent: 0; color: #ffffff; cursor: pointer; }
+
+/* 学校资讯终端 */
+.sx-good { margin: 0 20px; }
+
+.sx-good .good-title { font-size: 20px; font-weight: bold; line-height: 22px; color: #333333; margin-bottom: 10px; text-align: center; padding-top: 26px; }
+
+.sx-good .good-bar { height: 30px; line-height: 30px; background-color: #f7f7f7; font-size: 14px; color: #999999; padding: 0 16px 0 20px; margin-bottom: 20px; }
+
+.sx-good .good-bar .bar-read { margin-left: 30px; }
+
+.sx-good .good-bar .bar-time { float: right; }
+
+.sx-good .good-bar .bar-time .icon { width: 15px; height: 15px; background: url("https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/sx-sprites.png") -10px -110px; margin-right: 6px; vertical-align: middle; }
+
+.sx-good .good-bar .bar-time em { line-height: 14px; vertical-align: middle; }
+
+.sx-good p { font-size: 14px; line-height: 24px; color: #333333; margin-bottom: 20px; }
+
+.sx-good p:last-child { margin-bottom: 0; }
+
+.sx-good .paging { border-top: 1px dashed #dddddd; }
+
+.sx-good .paging .paging-prev, .sx-good .paging .paging-next { font-size: 14px; line-height: 52px; color: #333333; }
+
+.sx-good .paging .paging-prev span, .sx-good .paging .paging-next span { color: #666666; margin-left: 10px; }
+
+.sx-good .paging .paging-prev:hover span, .sx-good .paging .paging-next:hover span { color: #e74a42; }
+
+.sx-good .paging .paging-next { float: right; }
+
+/* 学校问答终端 */
+.sx-ask { margin: 0 20px; }
+
+.sx-ask .ask-ftu-query .query-title { font-size: 20px; font-weight: bold; line-height: 22px; color: #333333; margin-bottom: 20px; padding-top: 26px; }
+
+.sx-ask .ask-ftu-query .query-title .icon { width: 26px; height: 25px; background: url("https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/sx-sprites.png") -70px -10px; vertical-align: middle; margin-right: 6px; }
+
+.sx-ask .ask-ftu-query .query-title span { vertical-align: middle; }
+
+.sx-ask .ask-ftu-query p { font-size: 14px; line-height: 24px; color: #666666; }
+
+.sx-ask .ask-ftu-query .query-tags { padding: 0px 16px 0 20px; height: 30px; line-height: 30px; background-color: #f7f7f7; font-size: 14px; color: #999999; margin-top: 20px; margin-bottom: 20px; }
+
+.sx-ask .ask-ftu-query .query-tags .tags-name { margin-right: 20px; }
+
+.sx-ask .ask-ftu-query .query-tags .tags-time { float: right; }
+
+.sx-ask .ask-ftu-query .query-tags .tags-time .icon { width: 15px; height: 15px; background: url("https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/sx-sprites.png") -10px -110px; vertical-align: middle; margin-right: 9px; }
+
+.sx-ask .ask-ftu-query .query-tags .tags-time span { vertical-align: middle; }
+
+.sx-ask .ask-ftu-answer .answer-title { font-size: 20px; font-weight: bold; line-height: 20px; color: #e74a42; margin-bottom: 20px; padding-top: 26px; }
+
+.sx-ask .ask-ftu-answer .answer-title .icon { width: 17px; height: 21px; background: url("https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/sx-sprites.png") -116px -10px; vertical-align: middle; margin-right: 6px; }
+
+.sx-ask .ask-ftu-answer .answer-title span { vertical-align: middle; }
+
+.sx-ask .ask-ftu-answer p { font-size: 14px; line-height: 24px; color: #333333; }
+
+.sx-ask .ask-ftu-answer .answer-tags { padding: 0px 16px 0 20px; height: 30px; line-height: 30px; background-color: #f7f7f7; font-size: 14px; color: #999999; margin-top: 20px; margin-bottom: 20px; }
+
+.sx-ask .ask-ftu-answer .answer-tags .icon { width: 14px; height: 17px; background: url("https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/sx-sprites.png") -116px -51px; vertical-align: middle; margin-right: 9px; }
+
+.sx-ask .ask-ftu-answer .answer-tags span { vertical-align: middle; }
 
 /* 相关模块 */
 .sx-related .related-title .txt { font-size: 20px; font-weight: bold; line-height: 56px; color: #333333; border-bottom: 2px solid #e74a42; margin-bottom: -1px; }

@@ -3,18 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <title>学校首页</title>
-  <link rel="stylesheet" href="css/base.css">
-  <!--<link rel="stylesheet" href="css/modules-style.css">-->
-  <link rel="stylesheet" href="css/index.css">
+  <script type="text/javascript" src="https://img.thea.cn/public/js/thea.ms.form.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://img.thea.cn/public/css/base.css">
+  <link rel="stylesheet" href="https://img.thea.cn/public/platform/thea/201910/hbj/sxw/css/index.css">
+
+  <script type="text/javascript" src="https://img.thea.cn/public/js/jquery-1.12.3.min.js"></script>
 </head>
 <body>
 
 <!-- 头部 -->
-<div class="sx-head">
+<div class="sx-head defaults_dataid" data-id="2-0-126-0-0-0-1-国际高中择校">
   <div class="head-cont wrap">
     <div class="cont-logo">
       <div class="logo-main">
-        <img src="images/sx-logo.png" alt="">
+        <img src="https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/sx-logo.png" alt="">
       </div>
     </div>
     <div class="cont-nav">
@@ -26,13 +28,13 @@
       <a href="" target="_blank">国际学校</a>
     </div>
   </div>
-  <div class="head-navbar">
+  <div class="head-navbar" id="headNavBar">
     <div class="navbar-detail wrap">
       <a href="" target="_blank" class="active">学校首页</a>
-      <a href="" target="_blank">常见问题</a>
-      <a href="" target="_blank">相关新闻</a>
-      <a href="" target="_blank">录取分数线</a>
-      <a href="" target="_blank">师资力量</a>
+      <a href="#faq">常见问题</a>
+      <a href="#relatedNews">相关新闻</a>
+      <a href="#entryScore">录取分数线</a>
+      <a href="#teachers">师资力量</a>
     </div>
   </div>
 </div>
@@ -48,7 +50,7 @@
 
 <!-- banner -->
 <div class="sx-index2-banner wrap">
-  <img src="images/xxsy-bg.png" alt="">
+  <img src="https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/xxsy-bg.png" alt="">
 </div>
 
 <!-- 资讯大全 -->
@@ -58,7 +60,7 @@
       <div class="index2">
         <div class="school-intro">
             <div class="intro-detail">
-              <img src="images/hlzx-logo.png" alt="" class="detail-bg">
+              <img src="https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/hlzx-logo.png" alt="" class="detail-bg">
               <div class="detail-text">
                 <div class="text-name">深圳市红岭中学</div>
                 <div class="text-row">
@@ -90,24 +92,24 @@
             <div class="detail-title">学校环境</div>
             <ul>
               <li>
-                <img src="images/xxsy_2.png" alt="">
+                <img src="https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/xxsy_2.png" alt="">
               </li>
               <li>
-                <img src="images/xxsy_3.png" alt="">
+                <img src="https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/xxsy_3.png" alt="">
               </li>
               <li>
-                <img src="images/xxsy_4.png" alt="">
+                <img src="https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/xxsy_4.png" alt="">
               </li>
             </ul>
           </div>
         </div>
-        <div class="teacher-team">
+        <div class="teacher-team" id="teachers">
           <div class="team-detail">
             <div class="detail-title">师资团队</div>
             <div class="detail-explain">
               <div class="team-item">
                 <a href="" class="item-avatar">
-                  <img src="images/avatar_1.png" alt="">
+                  <img src="https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/avatar_1.png" alt="">
                 </a>
                 <div class="item-text">
                   <div class="text-name">
@@ -121,7 +123,7 @@
               </div>
               <div class="team-item">
                 <a href="" class="item-avatar">
-                  <img src="images/avatar_2.png" alt="">
+                  <img src="https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/avatar_2.png" alt="">
                 </a>
                 <div class="item-text">
                   <div class="text-name">
@@ -135,7 +137,7 @@
               </div>
               <div class="team-item">
                 <a href="" class="item-avatar">
-                  <img src="images/avatar_3.png" alt="">
+                  <img src="https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/avatar_3.png" alt="">
                 </a>
                 <div class="item-text">
                   <div class="text-name">
@@ -149,7 +151,7 @@
               </div>
               <div class="team-item">
                 <a href="" class="item-avatar">
-                  <img src="images/avatar_4.png" alt="">
+                  <img src="https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/avatar_4.png" alt="">
                 </a>
                 <div class="item-text">
                   <div class="text-name">
@@ -164,7 +166,7 @@
             </div>
           </div>
         </div>
-        <div class="score">
+        <div class="score" id="entryScore">
           <div class="score-detail">
             <div class="detail-title">录取分数线</div>
             <div class="score-txt">录取分数线：100分</div>
@@ -172,7 +174,7 @@
         </div>
       </div>
       <!-- 相关新闻 -->
-      <div class="sx-related">
+      <div class="sx-related" id="relatedNews">
         <div class="related-title">
           <span class="txt">相关新闻</span>
         </div>
@@ -242,7 +244,7 @@
         </div>
       </div>
       <!-- 相关问答 -->
-      <div class="sx-related">
+      <div class="sx-related" id="faq">
         <div class="related-title">
           <span class="txt">相关问答</span>
         </div>
@@ -318,12 +320,12 @@
         <div class="topic">
           <div class="topic-item">
             <a href="" target="_blank">
-              <img src="images/sx-zxlb_7.png" alt="">
+              <img src="https://img.thea.cn/public/platform/thea/201910/hbj/sxw/images/sx-zxlb_7.png" alt="">
             </a>
             <span class="item-txt">关于学位申请的事项</span>
           </div>
         </div>
-        <div class="index2-form">
+        <div class="index2-form" id="hasNavBarForm">
           <form class="sign-in">
             <input type="text" placeholder="您是孩子的：">
             <input type="text" placeholder="孩子姓名">
@@ -371,8 +373,6 @@
     </div>
   </div>
 </div>
-
-
 
 <!-- 友情链接 -->
 <div class="sx-links">
@@ -445,5 +445,6 @@
     粤ICP备10032899号辑文本</p>
 </div>
 
+<script src="https://img.thea.cn/public/platform/thea/201910/hbj/sxw/js/index.js"></script>
 </body>
 </html>
