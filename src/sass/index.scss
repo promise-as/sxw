@@ -987,7 +987,7 @@ select {
       width: 780px;
       //height: 892px;
       border: solid 1px #dddddd;
-      margin-top: 40px;
+      margin-top: 18px;
       padding: 20px 20px 6px;
       box-sizing: border-box;
       .intro-title {
@@ -1081,13 +1081,14 @@ select {
     }
   }
   .cont-r {
-    padding-top: 20px;
+    //padding-top: 20px;
   }
 }
 
 /* 学校库 */
 .schools-library {
   .info-cont{
+    padding-top: 8px;
     .cont-l {
       .library-types {
         border: solid 1px #eeeeee;
@@ -1259,7 +1260,6 @@ select {
       border-bottom: 1px dashed #c1c1c1;
       @extend %clearfix;
       .detail-bg{
-        width: 294px;
         height: 110px;
         float: left;
         margin-right: 30px;
@@ -1315,7 +1315,6 @@ select {
   }
   .about-us{
     padding: 10px;
-    display: none;
     .us-detail{
       padding: 5px 0 22px 10px;
       border-bottom: 1px dashed #c1c1c1;
@@ -1718,7 +1717,7 @@ select {
   font-size: 14px;
   &.sx-crumbs{
     padding-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 12px;
   }
   &.sx-crumbs2{
     padding-top: 19px;
@@ -1734,7 +1733,6 @@ select {
 /* 分页 */
 .page-wrap {
   width: 100%;
-  border-top: 1px solid #ddd;
   display: flex;
   .page {
     margin: 30px auto;

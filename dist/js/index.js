@@ -13,58 +13,74 @@ $(function () {
   }
   tab('.thead .thead-item', '.news-lists .lists-item', 'cur');
   tab('.school-title span', '.schools-switch ul', 'cur');
+  tab('.tab-head span', '.tab-detail .tab-item', 'active');
 
-  // 顶部横栏悬浮
-  navBarSuspend("#headNavBar");
-  function navBarSuspend(navBar) {
+  /*
+  headNavBar: 头部导航栏，
+  hasNavBarForm：有头部导航栏的表单，
+  noNavBarForm：没有头部导航栏的表单
+   */
+  suspensionWay('#headNavBar', '#hasNavBarForm', '#noNavBarForm');
+  function suspensionWay(navBar, hasNavBarForm, noNavBarForm) {
     var navBarTop = $(navBar).offset() ? $(navBar).offset().top : '';
-    var navBarNewAdd = $("<div></div>");
-    $(navBarNewAdd).css({
+    var hasNavBarFormTop = $(hasNavBarForm).offset() ? $(hasNavBarForm).offset().top : '';
+    var noNavBarFormTop = $(noNavBarForm).offset() ? $(noNavBarForm).offset().top : '';
+
+    var navBarSite = $('<div></div>');
+    var formSite1 = $('<div></div>');
+    var formSite2 = $('<div></div>');
+
+    $(navBarSite).css({
       'height': $(navBar).outerHeight(true),
       'display': 'none'
     });
-    $(navBar).parent().prepend(navBarNewAdd);
+    $(formSite1).css({
+      'height': $(hasNavBarForm).outerHeight(true),
+      'display': 'none'
+    });
+    $(formSite2).css({
+      'height': $(noNavBarForm).outerHeight(true),
+      'display': 'none'
+    });
+
+    $(navBar).parent().prepend(navBarSite);
+    $(hasNavBarForm).parent().prepend(formSite1);
+    $(noNavBarForm).parent().prepend(formSite2);
+
     $(document).scroll(function () {
-      // var navBarScrollTop = $(document).scrollTop();
       if ($(this).scrollTop() > navBarTop) {
-        $(navBarNewAdd).show();
+        $(navBarSite).show();
         $(navBar).css({
           'position': 'fixed',
-          'top': 0
+          'top': '0'
         });
       } else {
-        $(navBarNewAdd).hide();
+        $(navBarSite).hide();
         $(navBar).css({
           'position': 'static'
         });
       }
-    });
-  }
-
-  // 表单悬浮
-  formSuspend("#hasNavBarForm", true);
-  formSuspend("#noNavBarForm", false);
-  function formSuspend(form, isHasNavBar) {
-    var formTop = $(form).offset() ? $(form).offset().top + 400 : '';
-    var formNewAdd = $("<div></div>");
-    $(formNewAdd).css({
-      'height': $(form).outerHeight(true),
-      'display': 'none'
-    });
-    $(form).parent().prepend(formNewAdd);
-    // 悬浮时距离浏览器顶部距离
-    var formFinalTop = isHasNavBar ? formFinalTop = 42 : 0;
-    // var formScrollTop = $(document).scrollTop();
-    $(document).scroll(function () {
-      if ($(this).scrollTop() > formTop) {
-        $(formNewAdd).show();
-        $(form).css({
+      if ($(this).scrollTop() + $(navBar).outerHeight(true) > hasNavBarFormTop) {
+        $(formSite1).show();
+        $(hasNavBarForm).css({
           'position': 'fixed',
-          'top': formFinalTop
+          'top': $(navBar).outerHeight(true)
         });
       } else {
-        $(formNewAdd).hide();
-        $(form).css({
+        $(formSite1).hide();
+        $(hasNavBarForm).css({
+          'position': 'static'
+        });
+      }
+      if ($(this).scrollTop() > noNavBarFormTop) {
+        $(formSite2).show();
+        $(noNavBarForm).css({
+          'position': 'fixed',
+          'top': 0
+        });
+      } else {
+        $(formSite2).hide();
+        $(noNavBarForm).css({
           'position': 'static'
         });
       }

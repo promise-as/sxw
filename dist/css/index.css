@@ -341,7 +341,7 @@ input, textarea, select { font-family: '微软雅黑'; }
 .news-ftu .xx-cont .cont-banner { padding-top: 0; }
 
 /* 资讯终端-详情 */
-.news-ftu-details .cont-l .details-intro { width: 780px; border: solid 1px #dddddd; margin-top: 40px; padding: 20px 20px 6px; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.news-ftu-details .cont-l .details-intro { width: 780px; border: solid 1px #dddddd; margin-top: 18px; padding: 20px 20px 6px; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 .news-ftu-details .cont-l .details-intro .intro-title { font-size: 20px; line-height: 48px; font-weight: bold; color: #333333; text-align: center; }
 
@@ -377,9 +377,9 @@ input, textarea, select { font-family: '微软雅黑'; }
 
 .news-ftu-details .cont-l .details-good .good-item .item-txt { width: 100%; font-size: 14px; line-height: 24px; padding: 13px 0; color: #333333; text-align: center; }
 
-.news-ftu-details .cont-r { padding-top: 20px; }
-
 /* 学校库 */
+.schools-library .info-cont { padding-top: 8px; }
+
 .schools-library .info-cont .cont-l .library-types { border: solid 1px #eeeeee; padding: 20px 0 20px 20px; color: #666666; font-size: 14px; line-height: 20px; }
 
 .schools-library .info-cont .cont-l .library-types .types-row { margin-bottom: 10px; }
@@ -447,7 +447,7 @@ input, textarea, select { font-family: '微软雅黑'; }
 
 .sx-index2 .school-intro .intro-detail { padding: 10px 0 32px 10px; border-bottom: 1px dashed #c1c1c1; }
 
-.sx-index2 .school-intro .intro-detail .detail-bg { width: 294px; height: 110px; float: left; margin-right: 30px; }
+.sx-index2 .school-intro .intro-detail .detail-bg { height: 110px; float: left; margin-right: 30px; }
 
 .sx-index2 .school-intro .intro-detail .detail-text { float: left; width: 420px; }
 
@@ -465,7 +465,7 @@ input, textarea, select { font-family: '微软雅黑'; }
 
 .sx-index2 .school-intro .intro-detail .detail-text .busline:hover { color: #e74a42; }
 
-.sx-index2 .about-us { padding: 10px; display: none; }
+.sx-index2 .about-us { padding: 10px; }
 
 .sx-index2 .about-us .us-detail { padding: 5px 0 22px 10px; border-bottom: 1px dashed #c1c1c1; }
 
@@ -613,14 +613,14 @@ input, textarea, select { font-family: '微软雅黑'; }
 /* 面包屑 */
 .page-path { color: #999999; font-size: 14px; }
 
-.page-path.sx-crumbs { padding-top: 20px; margin-bottom: 30px; }
+.page-path.sx-crumbs { padding-top: 20px; margin-bottom: 12px; }
 
 .page-path.sx-crumbs2 { padding-top: 19px; margin-bottom: 15px; }
 
 .page-path a:hover { color: #e74a42; }
 
 /* 分页 */
-.page-wrap { width: 100%; border-top: 1px solid #ddd; display: -webkit-box; display: -ms-flexbox; display: flex; }
+.page-wrap { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; }
 
 .page-wrap .page { margin: 30px auto; line-height: 32px; }
 
