@@ -481,11 +481,11 @@ input, textarea, select { font-family: '微软雅黑'; }
 
 .sx-index2 .environment .environment-detail .detail-title { font-size: 18px; font-weight: bold; line-height: 22px; color: #333333; }
 
-.sx-index2 .environment .environment-detail ul { padding-top: 20px; padding-bottom: 6px; }
+.sx-index2 .environment .environment-detail ul { padding-top: 20px; padding-bottom: 6px; margin-right: -16px; }
 
-.sx-index2 .environment .environment-detail ul li { float: left; width: 238px; height: 157px; margin-right: 16px; }
+.sx-index2 .environment .environment-detail ul li { float: left; width: 238px; height: 157px; margin-right: 16px; margin-bottom: 16px; }
 
-.sx-index2 .environment .environment-detail ul li:last-child { margin-right: 0; }
+.sx-index2 .environment .environment-detail ul li img { width: 100%; height: 100%; }
 
 .sx-index2 .teacher-team { padding: 10px; }
 
@@ -496,6 +496,8 @@ input, textarea, select { font-family: '微软雅黑'; }
 .sx-index2 .teacher-team .team-detail .detail-explain .team-item { width: 352px; padding: 19px 0 13px 13px; float: left; }
 
 .sx-index2 .teacher-team .team-detail .detail-explain .team-item .item-avatar { width: 106px; height: 106px; float: left; margin-right: 20px; }
+
+.sx-index2 .teacher-team .team-detail .detail-explain .team-item .item-avatar img { width: 100%; height: 100%; }
 
 .sx-index2 .teacher-team .team-detail .detail-explain .team-item .item-text { float: left; width: 212px; }
 

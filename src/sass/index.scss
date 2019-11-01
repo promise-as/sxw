@@ -1351,13 +1351,16 @@ select {
         @extend %clearfix;
         padding-top: 20px;
         padding-bottom: 6px;
+        margin-right: -16px;
         li{
           float: left;
           width: 238px;
           height: 157px;
           margin-right: 16px;
-          &:last-child{
-            margin-right: 0;
+          margin-bottom: 16px;
+          img{
+            width: 100%;
+            height: 100%;
           }
         }
       }
@@ -1385,6 +1388,10 @@ select {
             height: 106px;
             float: left;
             margin-right: 20px;
+            img{
+              width: 100%;
+              height: 100%;
+            }
           }
           .item-text{
             float: left;
