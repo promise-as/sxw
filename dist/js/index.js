@@ -84,4 +84,5 @@ $(function () {
   tab('.thead .thead-item', '.news-lists .lists-item', 'cur');
   tab('.school-title span', '.schools-switch ul', 'cur');
   tab('.tab-head span', '.tab-detail .tab-item', 'active');
+  tab('.sx-site .tab-head li', '.sx-site .tab-item', 'cur');
 });
