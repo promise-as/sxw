@@ -174,7 +174,7 @@ select {
 
 /* 热门资讯 */
 .sx-hots {
-  padding: 42px 0 0;
+  padding: 42px 0 20px;
   .sx-bigtitle {
     margin-bottom: 26px;
   }
@@ -317,6 +317,7 @@ select {
             font-weight: normal;
             .more {
               color: #cbcbcb;
+              margin-left: -6px;
             }
             &:hover {
               color: #e74a42;
@@ -1959,7 +1960,7 @@ select {
   text-align: center;
 }
 .sx-banner {
-  padding: 89px 0;
+  // padding: 89px 0;
   .wrap {
     @extend %clearfix;
   }
@@ -2024,13 +2025,16 @@ select {
     .cont-item {
       float: left;
       width: 530px;
-      padding: 28px 28px 0;
+      height: 240px;
+      padding: 0 28px;
       box-sizing: border-box;
       background: url(../images/sx-bg_2.png) no-repeat bottom #fff;
       box-shadow: 0px 0px 12px 0px #f1cab4;
       margin-right: 40px;
       margin-bottom: 30px;
       position: relative;
+      display: flex;
+      align-items: center;
       p {
         font-size: 16px;
         line-height: 30px;
@@ -2038,7 +2042,7 @@ select {
       }
       .sx-btn {
         width: 294px;
-        margin: 20px auto 30px;
+        margin-top: 20px;
         span,
         .icon {
           vertical-align: middle;
@@ -2061,6 +2065,8 @@ select {
         z-index: 10;
         background: rgba(0, 0, 0, 0.8);
         display: none;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
         p {
           color: #fff;
@@ -2516,7 +2522,7 @@ select {
     @extend %in-b;
     vertical-align: text-top;
     margin-right: 18px;
-    img{
+    img {
       width: 100%;
     }
     .col-row {
@@ -2526,10 +2532,104 @@ select {
     }
   }
 }
-.sx-footer{
+.sx-footer {
   font-size: 14px;
-	line-height: 54px;
+  line-height: 54px;
   color: #888888;
   text-align: center;
   border-top: 1px solid #e7e7e7;
+}
+/* 弹窗 */
+.sx-mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 30;
+  display: none;
+  .masklayer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .mask-cont {
+    width: 500px;
+    height: 450px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    padding: 10px 20px 20px;
+    box-sizing: border-box;
+    background: url(../images/sx-form_3.png) no-repeat center;
+    .sx-close {
+      width: 16px;
+      height: 16px;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer;
+      margin-right: 0;
+    }
+    .sx-tc-title {
+      text-align: center;
+      color: #ffffff;
+      margin-bottom: 20px;
+      .tc-title1 {
+        font-size: 34px;
+        font-weight: bold;
+        strong{
+          color: #f7b90b;
+        }
+      }
+      .tc-title2 {
+        font-size: 30px;
+        
+      }
+      .subtitle{
+        border: solid 1px #f7b90b;
+        font-size: 14px;
+        line-height: 26px;
+        color: #f7b90b;
+        padding: 0 6px;
+      }
+    }
+    .sign-in {
+      padding: 30px 20px 10px;
+      box-sizing: border-box;
+      background-color: #fff;
+      border-radius: 6px;
+      font-size: 14px;
+      input,
+      select {
+        height: 42px;
+        line-height: 42px;
+        border: solid 1px #e7e7e7;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+      }
+      input {
+        width: 100%;
+      }
+      select {
+        float: left;
+        width: 48%;
+        padding: 0 20px;
+        background: url(../images/sx-icon_4.png) no-repeat 90% center #fff;
+        &:nth-of-type(2) {
+          float: right;
+        }
+      }
+      input[type="submit"] {
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
 }

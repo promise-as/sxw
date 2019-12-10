@@ -85,4 +85,12 @@ $(function () {
   tab('.school-title span', '.schools-switch ul', 'cur');
   tab('.tab-head span', '.tab-detail .tab-item', 'active');
   tab('.sx-site .tab-head li', '.sx-site .tab-item', 'cur');
+
+  // 弹窗
+  $(".popup-btn").click(function () {
+    $("#popup").show();
+  });
+  $('.sx-close').click(function () {
+    $("#popup").hide();
+  });
 });

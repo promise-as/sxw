@@ -60,7 +60,7 @@ input, textarea, select { font-family: "微软雅黑"; }
 .sx-bigtitle .title-en { font-size: 16px; color: #999999; margin-left: 20px; }
 
 /* 热门资讯 */
-.sx-hots { padding: 42px 0 0; }
+.sx-hots { padding: 42px 0 20px; }
 
 .sx-hots .sx-bigtitle { margin-bottom: 26px; }
 
@@ -110,7 +110,7 @@ input, textarea, select { font-family: "微软雅黑"; }
 
 .sx-hots .host-cont .cont-r .r-hots .hots-head .head-more { float: right; font-size: 14px; color: #999999; font-weight: normal; }
 
-.sx-hots .host-cont .cont-r .r-hots .hots-head .head-more .more { color: #cbcbcb; }
+.sx-hots .host-cont .cont-r .r-hots .hots-head .head-more .more { color: #cbcbcb; margin-left: -6px; }
 
 .sx-hots .host-cont .cont-r .r-hots .hots-head .head-more:hover { color: #e74a42; }
 
@@ -702,8 +702,6 @@ input, textarea, select { font-family: "微软雅黑"; }
 
 .sx-btn { display: block; height: 42px; line-height: 40px; background-image: -webkit-gradient(linear, left top, right top, from(#f3921f), to(#f36d1f)), -webkit-gradient(linear, left top, left bottom, from(#f36d1f), to(#f36d1f)); background-image: linear-gradient(90deg, #f3921f 0%, #f36d1f 100%), linear-gradient(#f36d1f, #f36d1f); background-blend-mode: normal, normal; -webkit-box-shadow: 0px 3px 5px 0px rgba(243, 109, 31, 0.4); box-shadow: 0px 3px 5px 0px rgba(243, 109, 31, 0.4); border-radius: 21px; font-size: 16px; color: #fff; text-align: center; }
 
-.sx-banner { padding: 89px 0; }
-
 .sx-banner .sign-in { float: right; width: 272px; padding: 40px 20px 8px; -webkit-box-sizing: border-box; box-sizing: border-box; background: url(../images/sx-form.png) no-repeat; font-size: 14px; }
 
 .sx-banner .sign-in input, .sx-banner .sign-in select { height: 42px; line-height: 42px; border: solid 1px #e7e7e7; -webkit-box-sizing: border-box; box-sizing: border-box; margin-bottom: 12px; }
@@ -724,17 +722,17 @@ input, textarea, select { font-family: "微软雅黑"; }
 
 .sx-advise .advise-cont { padding: 40px 10px 10px 50px; -webkit-box-sizing: border-box; box-sizing: border-box; background-color: #fdddcb; border-radius: 16px; margin-top: 30px; }
 
-.sx-advise .advise-cont .cont-item { float: left; width: 530px; padding: 28px 28px 0; -webkit-box-sizing: border-box; box-sizing: border-box; background: url(../images/sx-bg_2.png) no-repeat bottom #fff; -webkit-box-shadow: 0px 0px 12px 0px #f1cab4; box-shadow: 0px 0px 12px 0px #f1cab4; margin-right: 40px; margin-bottom: 30px; position: relative; }
+.sx-advise .advise-cont .cont-item { float: left; width: 530px; height: 240px; padding: 0 28px; -webkit-box-sizing: border-box; box-sizing: border-box; background: url(../images/sx-bg_2.png) no-repeat bottom #fff; -webkit-box-shadow: 0px 0px 12px 0px #f1cab4; box-shadow: 0px 0px 12px 0px #f1cab4; margin-right: 40px; margin-bottom: 30px; position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
 .sx-advise .advise-cont .cont-item p { font-size: 16px; line-height: 30px; color: #666666; }
 
-.sx-advise .advise-cont .cont-item .sx-btn { width: 294px; margin: 20px auto 30px; }
+.sx-advise .advise-cont .cont-item .sx-btn { width: 294px; margin-top: 20px; }
 
 .sx-advise .advise-cont .cont-item .sx-btn span, .sx-advise .advise-cont .cont-item .sx-btn .icon { vertical-align: middle; }
 
 .sx-advise .advise-cont .cont-item .sx-btn .icon { width: 16px; height: 16px; background: url(../images/sx-icon_5.png) no-repeat; }
 
-.sx-advise .advise-cont .cont-item .item-mask { width: 100%; height: 100%; padding: 0 28px; -webkit-box-sizing: border-box; box-sizing: border-box; position: absolute; top: 0; left: 0; z-index: 10; background: rgba(0, 0, 0, 0.8); display: none; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.sx-advise .advise-cont .cont-item .item-mask { width: 100%; height: 100%; padding: 0 28px; -webkit-box-sizing: border-box; box-sizing: border-box; position: absolute; top: 0; left: 0; z-index: 10; background: rgba(0, 0, 0, 0.8); display: none; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
 .sx-advise .advise-cont .cont-item .item-mask p { color: #fff; }
 
@@ -915,3 +913,34 @@ input, textarea, select { font-family: "微软雅黑"; }
 .sx-environment .cont-col .col-row { width: 236px; height: 160px; margin-bottom: 20px; }
 
 .sx-footer { font-size: 14px; line-height: 54px; color: #888888; text-align: center; border-top: 1px solid #e7e7e7; }
+
+/* 弹窗 */
+.sx-mask { position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 30; display: none; }
+
+.sx-mask .masklayer { position: absolute; top: 0; left: 0; z-index: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.4); }
+
+.sx-mask .mask-cont { width: 500px; height: 450px; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); position: absolute; top: 50%; left: 50%; z-index: 1; padding: 10px 20px 20px; -webkit-box-sizing: border-box; box-sizing: border-box; background: url(../images/sx-form_3.png) no-repeat center; }
+
+.sx-mask .mask-cont .sx-close { width: 16px; height: 16px; position: absolute; top: 10px; right: 10px; cursor: pointer; margin-right: 0; }
+
+.sx-mask .mask-cont .sx-tc-title { text-align: center; color: #ffffff; margin-bottom: 20px; }
+
+.sx-mask .mask-cont .sx-tc-title .tc-title1 { font-size: 34px; font-weight: bold; }
+
+.sx-mask .mask-cont .sx-tc-title .tc-title1 strong { color: #f7b90b; }
+
+.sx-mask .mask-cont .sx-tc-title .tc-title2 { font-size: 30px; }
+
+.sx-mask .mask-cont .sx-tc-title .subtitle { border: solid 1px #f7b90b; font-size: 14px; line-height: 26px; color: #f7b90b; padding: 0 6px; }
+
+.sx-mask .mask-cont .sign-in { padding: 30px 20px 10px; -webkit-box-sizing: border-box; box-sizing: border-box; background-color: #fff; border-radius: 6px; font-size: 14px; }
+
+.sx-mask .mask-cont .sign-in input, .sx-mask .mask-cont .sign-in select { height: 42px; line-height: 42px; border: solid 1px #e7e7e7; -webkit-box-sizing: border-box; box-sizing: border-box; margin-bottom: 20px; }
+
+.sx-mask .mask-cont .sign-in input { width: 100%; }
+
+.sx-mask .mask-cont .sign-in select { float: left; width: 48%; padding: 0 20px; background: url(../images/sx-icon_4.png) no-repeat 90% center #fff; }
+
+.sx-mask .mask-cont .sign-in select:nth-of-type(2) { float: right; }
+
+.sx-mask .mask-cont .sign-in input[type="submit"] { border: none; cursor: pointer; }
